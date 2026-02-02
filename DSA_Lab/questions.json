@@ -1,0 +1,113 @@
+[
+    {
+        "Day": 1,
+        "Lab assignment": [
+        "1. Write a function to multiply two matrices. The function should check the possibility of multiplication.",
+        "2. Write a program to find the sparse representation of an ordinary matrix."
+        ],
+        "Home assignment": [
+        "1. Write a program to reverse the elements of an array without using other variable.",
+        "2. Write a program to find the sparse representation of an ordinary matrix and the transpose of the matrix using the sparse representation."
+        ]
+    },
+    {
+        "Day": 2,
+        "Lab assignment": [
+        "1. Write a menu driven program to implement a stack, using array.",
+        "2. Write a function to evaluate a postfix expression."
+        ],
+        "Home assignment": [
+        "1. Write functions to convert an infix expression to its corresponding postfix expression."
+        ]
+    },
+    {
+        "Day": 3,
+        "Lab assignment": [
+        "1. Write a menu driven program to implement a linear queue, using array.",
+        "2. Write a menu driven program to implement a circular queue, using array."
+        ],
+        "Home assignment": [
+        "1. Write a menu driven program to implement a double-ended queue (dequeue), using array."
+        ]
+    },
+    {
+        "Day": 4,
+        "Lab assignment": [
+        "1. Write functions to perform the following. a. Represent a polynomial (of single variable x) b. Add two polynomials"
+        ],
+        "Home assignment": [
+        "1. Write a function to multiply two polynomials."
+        ]
+    },
+    {
+        "Day": 5,
+        "Lab assignment": [
+        "1. Write a menu driven program to implement a singly linked list with the following operations: a) Insert an element (at front, at end, at any specified location) b) Delete an element (from front, from end, from any given location) c) Print the list d) Perform a linear search on the list"
+        ],
+        "Home assignment": [
+        "1. Write a menu driven program to implement a doubly linked list with the following operations: a. Insert an element at any position (front, end or intermediate) b. Delete an element from any position (front, end or intermediate) c. Display the list d. Count the number of nodes",
+        "2. Write a menu driven program to implement circular linked list with the following operations: (a) Create the list (b) Insert an element in any posit (c) Delete an element from any position (d) Print the list."
+        ]
+    },
+    {
+        "Day": 6,
+        "Lab assignment": [
+        "1. Write a menu driven program to implement Stack using linked list.",
+        "2. Write a menu driven program to implement following search. Use different function for each of them. (a) Linear search (b) Binary search"
+        ],
+        "Home assignment": [
+        "1. Write a program to implement interpolation search."
+        ]
+    },
+    {
+        "Day": 7,
+        "Lab assignment": [
+        "1. Write a menu driven program to implement a linear queue, using linked list with the following operations: (a) Insert (b) Delete (c) Print"
+        ],
+        "Home assignment": [
+        "1. Write a menu driven program to implement a dequeue using linked list with the following operations: (a) Insert from front and rear (b) Delete from front and rear (c) Print",
+        "2. Write a menu driven program to implement a circular queue using circular linked list with the following operations: (a) Insert (b) Delete (c) Print"
+        ]
+    },
+    {
+        "Day": 8,
+        "Lab assignment": [
+        "1. Write a program to implement the following sorting techniques. Use different function for each of them. (a) Bubble (Optimized) (b) Selection Sort (c) Insertion"
+        ],
+        "Home assignment": [
+        "1. Write a program to implement the following sorting techniques. Use different function for each of them. (a) Shell Sort (b) Radix Sort"
+        ]
+    },
+    {
+        "Day": 9,
+        "Lab assignment": [
+        "1. Write a program to implement the following sorting techniques. Use different function for each of them. (a) Quick Sort (b) Merge Sort"
+        ],
+        "Home assignment": [
+        "1. Write a function to implement Heap sort (display the list once after the initial heap is built, and then after each pass during the sorting)."
+        ]
+    },
+    {
+        "Day": 10,
+        "Lab assignment": [
+        "1. Write a program, which creates a binary search tree (BST). Also write a function to insert elements in BST, then traverse a given BST in the following orders: a) Inorder b) Preorder c) Postorder"
+        ],
+        "Home assignment": [
+        "1. Write a program to find the following of Binary Search Tree (BST): a) Count the number of nodes b) Count the number of leaves c) Find the height of the tree d) Remove a node from the tree"
+        ]
+    },
+    {
+        "Day": 11,
+        "Lab assignment": [
+        "1. Write a program to accept a dense graph and perform searching using the BFS technique."
+        ],
+        "Home assignment": []
+    },
+    {
+        "Day": 12,
+        "Lab assignment": [
+        "1. Write a program to accept a dense graph and perform searching using the DFS technique."
+        ],
+        "Home assignment": []
+    }
+]
