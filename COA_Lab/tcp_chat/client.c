@@ -88,3 +88,21 @@ void main()
     /* Close connection */
     close(socket_file_descriptor);
 }
+
+/*
+OUTPUT
+------
+~/client$ ./client
+
+TCP CHAT CLIENT
+
+Client: Connected to server
+
+Client: hello
+Server: hi, how are you?
+
+Client: i am good, just testing the chat
+Server: bye
+
+Server ended the chat.
+*/

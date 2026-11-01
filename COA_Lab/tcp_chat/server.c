@@ -114,3 +114,28 @@ void main()
         printf("\nClient connection closed.\n");
     }
 }
+
+/*
+OUTPUT
+------
+~/server$ ./server
+
+TCP CHAT SERVER
+
+Server: Waiting for client...
+
+Connection from client 192.168.24.44 accepted
+
+Client: hello
+Server: hi, how are you?
+
+Client: i am good, just testing the chat
+Server: bye
+
+Server ended the chat.
+
+Client connection closed.
+
+Server: Waiting for client...
+^C
+*/
