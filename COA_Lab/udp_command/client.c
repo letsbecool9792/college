@@ -74,3 +74,50 @@ void main()
     /* Close socket */
     close(socket_file_descriptor);
 }
+
+/*
+OUTPUT
+------
+~/client$ ./client
+
+UDP COMMAND CLIENT
+
+Enter command: ls
+
+--- Server output ---
+output.txt
+server
+server.c
+---------------------
+
+Enter command: pwd
+
+--- Server output ---
+/root/server
+---------------------
+
+Enter command: x
+
+--- Server output ---
+ERROR: Command failed to run
+---------------------
+
+Enter command: touch newfile
+
+--- Server output ---
+(no output)
+---------------------
+
+Enter command: ls
+
+--- Server output ---
+newfile
+output.txt
+server
+server.c
+---------------------
+
+Enter command: bye
+
+Client ended the session.
+*/

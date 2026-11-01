@@ -113,3 +113,38 @@ void main()
             printf("\nERROR: Cannot send output\n");
     }
 }
+
+/*
+OUTPUT
+------
+~/server$ ./server
+
+UDP COMMAND SERVER
+
+Server: Waiting for commands...
+
+Client 192.168.24.44 command: ls
+
+system() returned 0 (command ran)
+
+Client 192.168.24.44 command: pwd
+
+system() returned 0 (command ran)
+
+Client 192.168.24.44 command: x
+
+system() returned 32512 (command failed)
+
+Client 192.168.24.44 command: touch newfile
+
+system() returned 0 (command ran)
+
+Client 192.168.24.44 command: ls
+
+system() returned 0 (command ran)
+
+Client 192.168.24.44 command: bye
+
+Client ended the session.
+^C
+*/
