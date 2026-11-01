@@ -103,3 +103,31 @@ void main()
         printf("\nClient connection closed.\n");
     }
 }
+
+/*
+OUTPUT
+------
+~/server$ ./server
+
+TCP ECHO SERVER
+
+Server: Waiting for client...
+
+Connection from client 192.168.24.44 accepted
+
+Client: hello
+Echoed: hello
+
+Client: how are you
+Echoed: how are you
+
+Client: bye
+Echoed: bye
+
+Client ended the session.
+
+Client connection closed.
+
+Server: Waiting for client...
+^C
+*/

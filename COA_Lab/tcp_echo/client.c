@@ -82,3 +82,24 @@ void main()
     /* Close connection */
     close(socket_file_descriptor);
 }
+
+/*
+OUTPUT
+------
+~/client$ ./client
+
+TCP ECHO CLIENT
+
+Client: Connected to server
+
+Client: hello
+Echo from server: hello
+
+Client: how are you
+Echo from server: how are you
+
+Client: bye
+Echo from server: bye
+
+Client ended the session.
+*/
