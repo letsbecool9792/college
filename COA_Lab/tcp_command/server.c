@@ -141,3 +141,36 @@ void main()
         printf("\nClient connection closed.\n");
     }
 }
+
+/*
+OUTPUT
+------
+~/server$ ./server
+
+TCP COMMAND SERVER
+
+Server: Waiting for client...
+
+Connection from client 192.168.24.44 accepted
+
+Client command: ls
+
+system() returned 0 (command ran)
+
+Client command: pwd
+
+system() returned 0 (command ran)
+
+Client command: x
+
+system() returned 32512 (command failed)
+
+Client command: bye
+
+Client ended the session.
+
+Client connection closed.
+
+Server: Waiting for client...
+^C
+*/

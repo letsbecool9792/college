@@ -82,3 +82,40 @@ void main()
     /* Close connection */
     close(socket_file_descriptor);
 }
+
+/*
+OUTPUT
+------
+~/client$ ./client
+
+TCP COMMAND CLIENT
+
+Client: Connected to server
+
+Enter command: ls
+
+--- Server output ---
+output.txt
+server
+server.c
+
+---------------------
+
+Enter command: pwd
+
+--- Server output ---
+/root/server
+
+---------------------
+
+Enter command: x
+
+--- Server output ---
+ERROR: Command failed to run
+
+---------------------
+
+Enter command: bye
+
+Client ended the session.
+*/
