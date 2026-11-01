@@ -93,3 +93,24 @@ void main()
         }
     }
 }
+
+/*
+OUTPUT
+------
+~/server$ ./server
+
+UDP CHAT SERVER
+
+Server: Waiting for messages...
+
+Client 192.168.24.44: hello
+Server: hi, how are you?
+
+Client 192.168.24.44: i am good, just testing the chat
+Server: bye
+
+Server ended the chat.
+
+Server: Waiting for messages...
+^C
+*/

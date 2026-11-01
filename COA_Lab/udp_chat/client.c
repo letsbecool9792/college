@@ -80,3 +80,19 @@ void main()
     /* Close socket */
     close(socket_file_descriptor);
 }
+
+/*
+OUTPUT
+------
+~/client$ ./client
+
+UDP CHAT CLIENT
+
+Client: hello
+Server: hi, how are you?
+
+Client: i am good, just testing the chat
+Server: bye
+
+Server ended the chat.
+*/
