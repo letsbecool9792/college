@@ -64,3 +64,22 @@ void main()
     printf("\nServer: %s\n", receive_buffer);
     close(socket_file_descriptor);
 }
+
+/*
+OUTPUT
+------
+~/client$ ./client
+
+TCP COUNT CLIENT
+
+Client: Connected to server
+
+Type your message. Send * on its own line to finish.
+Client: hello world
+Client: this is a test
+Client: bye
+Client: *
+
+Server: Lines: 3, Words: 7, Characters: 28
+
+*/

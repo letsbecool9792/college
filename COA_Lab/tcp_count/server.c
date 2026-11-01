@@ -122,3 +122,26 @@ void main()
         printf("\nClient connection closed.\n");
     }
 }
+
+/*
+OUTPUT
+------
+~/server$ ./server
+
+TCP COUNT SERVER
+
+Server: Waiting for client...
+
+Connection from client 192.168.24.44 accepted
+Client line: hello world
+Client line: this is a test
+Client line: bye
+
+Received '*', sending totals
+Sent: Lines: 3, Words: 7, Characters: 28
+
+Client connection closed.
+
+Server: Waiting for client...
+^C
+*/
