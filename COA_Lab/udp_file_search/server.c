@@ -143,3 +143,27 @@ void main()
             printf("File sent to client\n");
     }
 }
+
+/*
+OUTPUT
+------
+(server folder before running: a  ab  abc/  abcd.txt  hello.txt  server  server.c)
+
+~/server$ ./server
+
+UDP FILE SEARCH SERVER
+
+Server: Waiting for search query...
+
+Client 192.168.24.44 search query: xyz
+No matching files for this query
+
+Client 192.168.24.44 search query: ab
+Sent 3 matching file name(s)
+
+Client requested file: abcd.txt
+File sent to client
+
+Server: Waiting for search query...
+^C
+*/

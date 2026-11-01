@@ -117,3 +117,33 @@ void main()
     /* Close socket */
     close(socket_file_descriptor);
 }
+
+/*
+OUTPUT
+------
+(server folder before running: a  ab  abc/  abcd.txt  hello.txt  server  server.c)
+
+~/client$ ./client
+
+UDP FILE SEARCH CLIENT
+
+Enter search query: xyz
+No results, re-enter search query
+
+Enter search query: ab
+
+Matching files:
+abcd.txt
+abc
+ab
+
+Enter exact file name: abcd.txt
+
+File contents: hello world
+
+Saved a copy as abcd.txt in the client folder
+~/client$ ls
+abcd.txt  client  client.c
+~/client$ cat abcd.txt
+hello world
+*/
