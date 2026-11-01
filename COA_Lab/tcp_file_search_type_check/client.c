@@ -117,3 +117,69 @@ void main()
     }
     close(socket_file_descriptor);
 }
+
+/*
+OUTPUT
+------
+(server folder before running: a  ab  abc/  abcd.txt  hello.txt  server  server.c)
+
+~/client$ ./client
+
+TCP FILE SEARCH CLIENT
+
+Client: Connected to server
+
+Enter search query: ab
+
+Matching files:
+abcd.txt
+abc
+ab
+
+Enter exact file name: abc
+Server: ERROR: this is a directory, cannot read
+
+Enter exact file name: abcd.txt
+
+File contents: hello world
+
+Saved a copy as abcd.txt in the client folder
+~/client$ ./client
+
+TCP FILE SEARCH CLIENT
+
+Client: Connected to server
+
+Enter search query: s
+
+Matching files:
+server
+server.c
+
+Enter exact file name: server
+Server: ERROR: this is an executable, cannot read
+
+Enter exact file name: abc
+
+Two wrong picks. Valid files to choose from:
+a
+ab
+abcd.txt
+hello.txt
+matches.txt
+perm.txt
+server.c
+valid.txt
+
+Enter exact file name: hello.txt
+
+File contents: hi there, this is hello.txt
+
+Saved a copy as hello.txt in the client folder
+~/client$ ls
+abcd.txt  client  client.c  hello.txt
+~/client$ cat abcd.txt
+hello world
+~/client$ cat hello.txt
+hi there, this is hello.txt
+*/
