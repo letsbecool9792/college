@@ -204,3 +204,39 @@ void main()
         }
     }
 }
+
+/*
+OUTPUT
+------
+(server folder before running: a  ab  abc/  abcd.txt  hello.txt  server  server.c)
+
+~/server$ ./server
+
+UDP FILE SEARCH SERVER
+
+Server: Waiting for search query...
+
+Client 192.168.24.44 search query: ab
+Sent 3 matching file name(s)
+
+Client requested file: abc
+
+Client requested file: abcd.txt
+File sent to client
+
+Server: Waiting for search query...
+
+Client 192.168.24.44 search query: s
+Sent 2 matching file name(s)
+
+Client requested file: server
+
+Client requested file: abc
+Two wrong picks: sent valid file list
+
+Client requested file: hello.txt
+File sent to client
+
+Server: Waiting for search query...
+^C
+*/
