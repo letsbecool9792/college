@@ -167,3 +167,31 @@ void main()
         printf("\nClient connection closed.\n");
     }
 }
+
+/*
+OUTPUT
+------
+(server folder before running: a  ab  abc/  abcd.txt  hello.txt  server  server.c)
+
+~/server$ ./server
+
+TCP FILE SEARCH SERVER
+
+Server: Waiting for client...
+
+Connection from client 192.168.24.44 accepted
+
+Client search query: xyz
+No matching files for this query
+
+Client search query: ab
+Sent 3 matching file name(s)
+
+Client requested file: abcd.txt
+File sent to client
+
+Client connection closed.
+
+Server: Waiting for client...
+^C
+*/
