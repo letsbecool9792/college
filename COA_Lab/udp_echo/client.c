@@ -74,3 +74,22 @@ void main()
     /* Close socket */
     close(socket_file_descriptor);
 }
+
+/*
+OUTPUT
+------
+~/client$ ./client
+
+UDP ECHO CLIENT
+
+Client: hello
+Echo from server: hello
+
+Client: how are you
+Echo from server: how are you
+
+Client: bye
+Echo from server: bye
+
+Client ended the session.
+*/

@@ -76,3 +76,23 @@ void main()
         printf("Echoed: %s\n", receive_buffer);
     }
 }
+
+/*
+OUTPUT
+------
+~/server$ ./server
+
+UDP ECHO SERVER
+
+Server: Waiting for messages...
+
+Client 192.168.24.44: hello
+Echoed: hello
+
+Client 192.168.24.44: how are you
+Echoed: how are you
+
+Client 192.168.24.44: bye
+Echoed: bye
+^C
+*/
