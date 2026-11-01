@@ -104,3 +104,22 @@ void main()
         }
     }
 }
+
+/*
+OUTPUT
+------
+~/server$ ./server
+
+UDP COUNT SERVER
+
+Server: Waiting for lines...
+Client line: hello world
+Client line: this is a test
+Client line: bye
+
+Received '*', sending totals
+Sent: Lines: 3, Words: 7, Characters: 28
+
+Server: Waiting for lines...
+^C
+*/
